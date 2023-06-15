@@ -25,6 +25,7 @@ urlpatterns = [
     path('book/', include('book.urls')),
     path('sesion/', include('sesiones.urls')),
     path('registration/', include('registration.urls')),
+    path('ajax/', include('post.urls')),
 ]
 
 
